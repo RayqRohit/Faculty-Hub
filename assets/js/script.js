@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Smooth scroll back to the top of the grid
                     const gridElement = document.querySelector('.faculties-directory-profile-grid');
                     if (gridElement) {
-                        const gridTop = gridElement.getBoundingClientRect().top + window.scrollY - 100; // -100px for padding/header
+                        const gridTop = gridElement.getBoundingClientRect().top + window.scrollY - 200; // -100px for padding/header
                         window.scrollTo({ top: gridTop, behavior: 'smooth' });
                     }
                 });
