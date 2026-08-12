@@ -51,7 +51,7 @@
     
     /* Hero Section */
     .faculties-directory-hero {
-        background-image: url('../images/faculty-academic-experts/faculty-academic-experts-background-phone.png');
+        background-image: url('../images/faculty-academic-experts/faculty-academic-experts-background-phone.webp');
         background-size: contain;
     }
 
@@ -403,5 +403,90 @@
     .faculties-directory-profile-stats {
         font-size: 11px;
         line-height: 1.6;
+    }
+
+    /* Verification Section Mobile */
+    .faculties-directory-verification-box {
+        padding: 24px !important; /* Overrides p-5 */
+        gap: 32px !important; /* Overrides gap-5 */
+    }
+
+    .faculties-directory-verification-icon {
+        display: none !important;
+    }
+
+    .faculties-directory-verification-subtitle {
+        font-size: 14px !important;
+        background-color: #271d58;
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 6px;
+        margin-bottom: 20px !important;
+    }
+
+    .faculties-directory-verification-title {
+        font-size: 25px !important;
+        line-height: 1.1;
+    }
+
+    .faculties-directory-verification-title br {
+        display: none;
+    }
+
+    .faculties-directory-verification-desc {
+        font-size: 13px !important;
+        margin-bottom: 7px !important;
+    }
+
+    .faculties-directory-verification-box .gap-3 {
+        gap: 0 !important;
+        background-color: #271d58;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+    }
+
+    .faculties-directory-verification-card {
+        background-color: transparent !important;
+        border: none !important;
+        border-radius: 0 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+        padding: 20px !important;
+    }
+
+    .faculties-directory-verification-card:last-child {
+        border-bottom: none !important;
+    }
+
+    .faculties-directory-verification-card-title {
+        font-size: 18px !important;
+    }
+
+    .faculties-directory-verification-card-desc {
+        font-size: 12px !important;
+        line-height: 1.5;
+    }
+    
+    .faculties-directory-verification-card-desc br {
+        display: none; /* Let the text wrap naturally on mobile */
+    }
+
+    /* FAQ Section Mobile */
+    .faculties-directory-faq-section {
+        padding: 50px 0 !important;
+    }
+
+    .faculties-directory-certifications-subtitle {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .faculties-directory-certifications-title {
+        font-size: 32px !important;
+        line-height: 1.05 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .faculties-directory-certifications-title br {
+        display: none !important;
     }
 }

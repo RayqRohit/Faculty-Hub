@@ -582,7 +582,7 @@ img {
     opacity: 0;
     padding-bottom: 0;
     transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out, padding 0.3s ease-in-out;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #666;
     line-height: 1.6;
 }
@@ -595,10 +595,10 @@ img {
 
 .faculties-directory-summary {
     font-family: var(--font-figtree-semibold);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #444;
-    padding: 25px 0;
+    padding: 22px 0;
     cursor: pointer;
     list-style: none;
     display: flex;
