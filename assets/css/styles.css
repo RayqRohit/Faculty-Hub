@@ -1,4 +1,4 @@
-﻿@font-face {
+@font-face {
     font-family: 'Figtree-Regular';
     src: url('../fonts/Figtree-Regular.ttf') format('truetype');
 }
@@ -323,6 +323,26 @@ img {
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(17, 5, 67, 0.08);
     border-color: rgba(255, 204, 0, 0.4);
+}
+
+.faculties-directory-faculty-item.active {
+    background-color: #110543 !important;
+    border-color: #110543 !important;
+    box-shadow: 0 8px 25px rgba(17, 5, 67, 0.15) !important;
+    transform: translateY(-3px);
+}
+
+.faculties-directory-faculty-item.active .faculties-directory-faculty-name {
+    color: #ffcc00 !important;
+}
+
+.faculties-directory-faculty-item.active .faculties-directory-faculty-count {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.faculties-directory-faculty-item.active .faculties-directory-faculty-icon {
+    background: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
 }
 
 .faculties-directory-faculty-icon {

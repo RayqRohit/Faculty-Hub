@@ -7,6 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Faculty Item Active State
+    const facultyItems = document.querySelectorAll('.faculties-directory-faculty-item');
+    facultyItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault(); // Prevent jump to top from href="#"
+            facultyItems.forEach(i => i.classList.remove('active'));
+            item.classList.add('active');
+        });
+    });
+
     // FAQ Logic
     const detailsElements = document.querySelectorAll('.faculties-directory-details');
     detailsElements.forEach((detail) => {
