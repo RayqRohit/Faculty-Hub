@@ -132,8 +132,18 @@ img {
 }
 
 .faculties-directory-search-container button {
-    padding: 14px 32px;
-    border-radius: 8px;
+    background-color: #110543 !important;
+    color: #ffcc00 !important;
+    border: none !important;
+    transition: all 0.3s ease;
+}
+
+.faculties-directory-search-container button:hover,
+.faculties-directory-search-container button:active,
+.faculties-directory-search-container button:focus {
+    background-color: #271d58 !important;
+    color: #ffcc00 !important;
+    box-shadow: 0 4px 15px rgba(17, 5, 67, 0.2) !important;
 }
 
 .faculties-directory-search-hint {
@@ -346,8 +356,8 @@ img {
 }
 
 .faculties-directory-faculty-icon {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     background: linear-gradient(135deg, #ffffff 0%, #f1f3f5 100%);
     border: 1px solid rgba(17, 5, 67, 0.06);
     flex-shrink: 0;
