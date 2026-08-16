@@ -4,14 +4,14 @@
     .faculties-directory-profile-pagination {
         gap: 8px !important;
     }
-    
+
     .faculties-directory-profile-pagination button {
         width: 36px !important;
         height: 36px !important;
         margin: 0 !important;
         font-size: 14px !important;
     }
-    
+
     /* Previous and Next Pill Buttons */
     .faculties-directory-profile-pagination button:first-child,
     .faculties-directory-profile-pagination button:last-child {
@@ -48,7 +48,7 @@
         padding: 12px 20px !important;
         font-size: 14px !important;
     }
-    
+
     /* Hero Section */
     .faculties-directory-hero {
         background-image: url('../images/faculty-academic-experts/faculty-academic-experts-background-phone.webp');
@@ -300,8 +300,10 @@
     }
 
     .faculties-directory-faculty-item {
-        padding: 20px !important; /* Overrides p-3 */
-        border-radius: 12px !important; /* Overrides rounded-3 */
+        padding: 20px !important;
+        /* Overrides p-3 */
+        border-radius: 12px !important;
+        /* Overrides rounded-3 */
         margin-bottom: 16px;
         height: 112px;
     }
@@ -335,8 +337,10 @@
     .faculties-directory-faculty-icon {
         width: 60px;
         height: 60px;
-        margin-right: 16px !important; /* Overrides me-3 */
-        border-radius: 10px !important; /* Overrides rounded-3 */
+        margin-right: 16px !important;
+        /* Overrides me-3 */
+        border-radius: 10px !important;
+        /* Overrides rounded-3 */
         background: #f0f2f5;
         /* Matches the flat grey in mockup */
         border: none;
@@ -346,7 +350,8 @@
     .faculties-directory-faculty-name {
         font-size: 20px;
         line-height: 1.25;
-        margin-bottom: 4px !important; /* Overrides mb-1 */
+        margin-bottom: 4px !important;
+        /* Overrides mb-1 */
         color: #110543;
         font-family: var(--font-figtree-bold);
     }
@@ -376,7 +381,8 @@
     }
 
     .faculties-directory-profile-img-wrap .p-3 {
-        padding: 10px !important; /* Move icons closer to corner on mobile */
+        padding: 10px !important;
+        /* Move icons closer to corner on mobile */
     }
 
     .faculties-directory-profile-icon {
@@ -387,7 +393,8 @@
     }
 
     .faculties-directory-profile-details {
-        padding: 14px !important; /* Overrides p-4 */
+        padding: 14px !important;
+        /* Overrides p-4 */
     }
 
     .faculties-directory-profile-name {
@@ -397,7 +404,8 @@
 
     .faculties-directory-profile-designation {
         font-size: 13px;
-        margin-bottom: 12px !important; /* Overrides mb-4 */
+        margin-bottom: 12px !important;
+        /* Overrides mb-4 */
     }
 
     .faculties-directory-profile-stats {
@@ -407,8 +415,10 @@
 
     /* Verification Section Mobile */
     .faculties-directory-verification-box {
-        padding: 24px !important; /* Overrides p-5 */
-        gap: 32px !important; /* Overrides gap-5 */
+        padding: 24px !important;
+        /* Overrides p-5 */
+        gap: 32px !important;
+        /* Overrides gap-5 */
     }
 
     .faculties-directory-verification-icon {
@@ -465,9 +475,10 @@
         font-size: 12px !important;
         line-height: 1.5;
     }
-    
+
     .faculties-directory-verification-card-desc br {
-        display: none; /* Let the text wrap naturally on mobile */
+        display: none;
+        /* Let the text wrap naturally on mobile */
     }
 
     /* FAQ Section Mobile */
@@ -488,5 +499,2085 @@
 
     .faculties-directory-certifications-title br {
         display: none !important;
+    }
+}
+
+@media screen and (min-width: 361px) and (max-width: 479px) {
+
+    /* Hero Section */
+    .faculties-directory-hero {
+        background-image: url('../images/faculty-academic-experts/faculty-academic-experts-background-phone.webp');
+        background-size: contain;
+    }
+
+    .faculties-directory-hero-content {
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .faculties-directory-hero-content::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        filter: blur(40px);
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .faculties-directory-title {
+        font-size: 33px;
+    }
+
+    .faculties-directory-subtitle {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .faculties-directory-btn {
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+
+    /* Stats Banner Mobile */
+    .faculties-directory-stats {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .faculties-directory-stats .container {
+        padding: 0;
+    }
+
+    .faculties-directory-stats-banner {
+        border-radius: 0 !important;
+        border-top: 10px solid #ffcc00;
+        border-bottom: 10px solid #ffcc00;
+        background-color: #0f0445;
+        padding: 40px 20px !important;
+    }
+
+    .faculties-directory-stat-item {
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+
+    /* First Item - Laurels and Large Text */
+    .faculties-directory-stat-item:nth-child(1) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .faculties-directory-stat-item:nth-child(1) .faculties-directory-stat-number {
+        font-size: 63px;
+        color: #ffffff;
+        margin-right: 9px !important;
+        position: relative;
+    }
+
+    .faculties-directory-stat-title {
+        font-size: 18px;
+    }
+
+    .faculties-directory-stat-desc {
+        font-size: 12px;
+    }
+
+    .faculties-directory-stat-item:nth-child(1)::before {
+        content: '';
+        background: url('../images/faculties-directory-stats/faculty-directory-laurel-left.svg') no-repeat center/contain;
+        width: 40px;
+        height: 100px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .faculties-directory-stat-item:nth-child(1)::after {
+        content: '';
+        background: url('../images/faculties-directory-stats/faculty-directory-laurel-right.svg') no-repeat center/contain;
+        width: 40px;
+        height: 100px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* 2nd & 3rd Items - Pills */
+    .faculties-directory-stat-item:nth-child(3),
+    .faculties-directory-stat-item:nth-child(5) {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50px;
+        padding: 15px 20px;
+        background: rgba(255, 255, 255, 0.05);
+        justify-content: flex-start !important;
+    }
+
+    .faculties-directory-stat-item:nth-child(3) .faculties-directory-stat-number,
+    .faculties-directory-stat-item:nth-child(5) .faculties-directory-stat-number {
+        color: #ffcc00;
+        font-size: 35px;
+    }
+
+    /* Search & Filter Bar Mobile */
+    .faculties-directory-search .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .faculties-directory-search-container {
+        border-radius: 0 !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-block: 2rem !important;
+    }
+
+    .faculties-directory-search-form {
+        display: grid !important;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px !important;
+    }
+
+    .faculties-directory-search-input-wrapper {
+        grid-column: 1 / -1;
+    }
+
+    .faculties-directory-search-container select {
+        padding: 14px 24px !important;
+    }
+
+    .faculties-directory-search-container button {
+        padding: 14px 24px !important;
+    }
+
+    .faculties-directory-search-container input {
+        padding: 14px 20px 14px 48px !important;
+    }
+
+    /* Faculty Groups Mobile */
+    .faculties-directory-groups {
+        padding-top: 1rem !important;
+    }
+
+    .faculties-directory-groups-subtitle {
+        font-size: 16px;
+    }
+
+    .faculties-directory-groups-title {
+        font-size: 38px !important;
+        line-height: 1.1;
+    }
+
+    .faculties-directory-groups-title .faculties-directory-text-purple {
+        display: block;
+    }
+
+    .faculties-directory-groups-desc {
+        font-size: 14px !important;
+    }
+
+    .faculties-directory-card {
+        padding: 1.5rem;
+        min-height: 220px;
+    }
+
+    .faculties-directory-card-title {
+        font-size: 22px;
+    }
+
+    .faculties-directory-card-desc {
+        font-size: 12px;
+        margin-bottom: 1rem !important;
+    }
+
+    .faculties-directory-card-img {
+        height: 210px;
+        max-width: 60%;
+    }
+
+    .faculties-directory-card-badge {
+        font-size: 11px;
+        padding: 6px 12px !important;
+    }
+
+    .faculties-directory-all-header {
+        padding: 2rem !important;
+    }
+
+    .faculties-directory-all-header h3 {
+        font-size: 19px;
+        text-align: center;
+        margin-bottom: 1rem !important;
+    }
+
+    .faculties-directory-all-header p {
+        font-family: var(--font-figtree-regular);
+        font-size: 16px;
+        opacity: 0.9;
+        text-align: center;
+    }
+
+    /* All Faculties Grid Mobile (Slider Look) */
+    .faculties-directory-all-faculties-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .faculties-directory-faculty-item {
+        padding: 20px !important;
+        border-radius: 12px !important;
+        margin-bottom: 16px;
+        height: 112px;
+    }
+
+    /* Style the Slick Slider auto-generated dots container */
+    .faculties-directory-pagination ul.slick-dots {
+        display: flex;
+        position: static;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faculties-directory-pagination ul.slick-dots li {
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .faculties-directory-dot {
+        transition: all 0.3s ease;
+    }
+
+    .faculties-directory-faculty-icon {
+        width: 60px;
+        height: 60px;
+        margin-right: 16px !important;
+        border-radius: 10px !important;
+        background: #f0f2f5;
+        border: none;
+        box-shadow: none;
+    }
+
+    .faculties-directory-faculty-name {
+        font-size: 20px;
+        line-height: 1.25;
+        margin-bottom: 4px !important;
+        color: #110543;
+        font-family: var(--font-figtree-bold);
+    }
+
+    .faculties-directory-faculty-count {
+        font-size: 14px;
+        color: #8c98a4;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+
+    /* Responsive Pagination for small screens */
+    .faculties-directory-profile-pagination {
+        gap: 8px !important;
+    }
+
+    .faculties-directory-profile-pagination button {
+        width: 36px !important;
+        height: 36px !important;
+        margin: 0 !important;
+        font-size: 14px !important;
+    }
+
+    /* Previous and Next Pill Buttons */
+    .faculties-directory-profile-pagination button:first-child,
+    .faculties-directory-profile-pagination button:last-child {
+        width: 44px !important;
+        height: 32px !important;
+    }
+
+    .faculties-directory-profile-pagination button img {
+        width: 18px !important;
+        height: 18px !important;
+    }
+
+    /* Profiles Header Mobile (Campus Faculty) */
+    .faculties-directory-profiles-subtitle {
+        font-size: 18px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .faculties-directory-profiles-title {
+        font-size: 34px !important;
+        line-height: 1.2 !important;
+    }
+
+    .faculties-directory-profiles-desc {
+        font-size: 15px !important;
+        line-height: 1.5;
+        max-width: 100%;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .faculties-directory-sort-select {
+        width: 100% !important;
+        max-width: none !important;
+        padding: 12px 20px !important;
+        font-size: 14px !important;
+    }
+
+    /* Profiles Grid Mobile */
+    .faculties-directory-profile-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px;
+    }
+
+    .faculties-directory-profile-img {
+        display: none !important;
+    }
+
+    .faculties-directory-profile-img-wrap {
+        background-color: #5641E0 !important;
+        height: 180px !important;
+    }
+
+    .faculties-directory-profile-img-wrap .p-3 {
+        padding: 10px !important;
+    }
+
+    .faculties-directory-profile-icon {
+        width: 27px;
+        height: 27px;
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    .faculties-directory-profile-details {
+        padding: 14px !important;
+    }
+
+    .faculties-directory-profile-name {
+        font-size: 16px;
+        margin-bottom: 4px !important;
+    }
+
+    .faculties-directory-profile-designation {
+        font-size: 13px;
+        margin-bottom: 12px !important;
+    }
+
+    .faculties-directory-profile-stats {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    /* Verification Section Mobile */
+    .faculties-directory-verification-box {
+        padding: 24px !important;
+        gap: 32px !important;
+    }
+
+    .faculties-directory-verification-icon {
+        display: none !important;
+    }
+
+    .faculties-directory-verification-subtitle {
+        font-size: 14px !important;
+        background-color: #271d58;
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 6px;
+        margin-bottom: 20px !important;
+    }
+
+    .faculties-directory-verification-title {
+        font-size: 25px !important;
+        line-height: 1.1;
+    }
+
+    .faculties-directory-verification-title br {
+        display: none;
+    }
+
+    .faculties-directory-verification-desc {
+        font-size: 13px !important;
+        margin-bottom: 7px !important;
+    }
+
+    .faculties-directory-verification-box .gap-3 {
+        gap: 0 !important;
+        background-color: #271d58;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+    }
+
+    .faculties-directory-verification-card {
+        background-color: transparent !important;
+        border: none !important;
+        border-radius: 0 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+        padding: 20px !important;
+    }
+
+    .faculties-directory-verification-card:last-child {
+        border-bottom: none !important;
+    }
+
+    .faculties-directory-verification-card-title {
+        font-size: 18px !important;
+    }
+
+    .faculties-directory-verification-card-desc {
+        font-size: 12px !important;
+        line-height: 1.5;
+    }
+
+    .faculties-directory-verification-card-desc br {
+        display: none;
+    }
+
+    /* FAQ Section Mobile */
+    .faculties-directory-faq-section {
+        padding: 50px 0 !important;
+    }
+
+    .faculties-directory-certifications-subtitle {
+        font-size: 18px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .faculties-directory-certifications-title {
+        font-size: 32px !important;
+        line-height: 1.05 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .faculties-directory-certifications-title br {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 575px) {
+
+    /* Hero Section */
+    .faculties-directory-hero {
+        background-image: url('../images/faculty-academic-experts/faculty-academic-experts-background-phone.webp');
+        background-size: contain;
+    }
+
+    .faculties-directory-hero-content {
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .faculties-directory-hero-content::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        filter: blur(40px);
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .faculties-directory-title {
+        font-size: 44px;
+    }
+
+    .faculties-directory-subtitle {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .faculties-directory-btn {
+        width: 100%;
+        display: block;
+        margin-top: 30px;
+    }
+
+    /* Stats Banner Mobile */
+    .faculties-directory-stats {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .faculties-directory-stats .container {
+        padding: 0;
+    }
+
+    .faculties-directory-stats-banner {
+        border-radius: 0 !important;
+        border-top: 10px solid #ffcc00;
+        border-bottom: 10px solid #ffcc00;
+        background-color: #0f0445;
+        padding: 40px 20px !important;
+    }
+
+    .faculties-directory-stat-item {
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+
+    /* First Item - Laurels and Large Text */
+    .faculties-directory-stat-item:nth-child(1) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .faculties-directory-stat-item:nth-child(1) .faculties-directory-stat-number {
+        font-size: 70px;
+        color: #ffffff;
+        margin-right: 9px !important;
+        position: relative;
+    }
+
+    .faculties-directory-stat-title {
+        font-size: 20px;
+    }
+
+    .faculties-directory-stat-desc {
+        font-size: 14px;
+    }
+
+    .faculties-directory-stat-item:nth-child(1)::before {
+        content: '';
+        background: url('../images/faculties-directory-stats/faculty-directory-laurel-left.svg') no-repeat center/contain;
+        width: 40px;
+        height: 100px;
+        position: absolute;
+        left: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .faculties-directory-stat-item:nth-child(1)::after {
+        content: '';
+        background: url('../images/faculties-directory-stats/faculty-directory-laurel-right.svg') no-repeat center/contain;
+        width: 40px;
+        height: 100px;
+        position: absolute;
+        right: 35px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* 2nd & 3rd Items - Pills */
+    .faculties-directory-stat-item:nth-child(3),
+    .faculties-directory-stat-item:nth-child(5) {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50px;
+        padding: 15px 20px;
+        background: rgba(255, 255, 255, 0.05);
+        justify-content: center !important;
+    }
+
+    .faculties-directory-stat-item:nth-child(3) .faculties-directory-stat-number,
+    .faculties-directory-stat-item:nth-child(5) .faculties-directory-stat-number {
+        color: #ffcc00;
+        font-size: 40px;
+    }
+
+    /* Search & Filter Bar Mobile */
+    .faculties-directory-search .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .faculties-directory-search-container {
+        border-radius: 0 !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-block: 2rem !important;
+    }
+
+    .faculties-directory-search-form {
+        display: grid !important;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px !important;
+    }
+
+    .faculties-directory-search-input-wrapper {
+        grid-column: 1 / -1;
+    }
+
+    .faculties-directory-search-container select {
+        padding: 14px 24px !important;
+        font-size: 16px !important;
+    }
+
+    .faculties-directory-search-container button {
+        padding: 14px 24px !important;
+        font-size: 18px !important;
+    }
+
+    .faculties-directory-search-container input {
+        padding: 14px 20px 14px 48px !important;
+        font-size: 16px !important;
+    }
+
+    .faculties-directory-search-hint {
+        font-size: 14px !important;
+        line-height: 1.5;
+    }
+
+    /* Faculty Groups Mobile */
+    .faculties-directory-groups {
+        padding-top: 1rem !important;
+    }
+
+    .faculties-directory-groups-subtitle {
+        font-size: 18px;
+    }
+
+    .faculties-directory-groups-title {
+        font-size: 46px !important;
+        line-height: 1.1;
+    }
+
+    .faculties-directory-groups-title .faculties-directory-text-purple {
+        display: block;
+    }
+
+    .faculties-directory-groups-desc {
+        font-size: 16px !important;
+    }
+
+    .faculties-directory-card {
+        padding: 1.5rem;
+        min-height: 220px;
+    }
+
+    .faculties-directory-card-title {
+        font-size: 26px;
+    }
+
+    .faculties-directory-card-desc {
+        font-size: 14px;
+        margin-bottom: 1rem !important;
+    }
+
+    .faculties-directory-card-img {
+        height: 210px;
+        max-width: 60%;
+    }
+
+    .faculties-directory-card-badge {
+        font-size: 13px;
+        padding: 6px 12px !important;
+    }
+
+    .faculties-directory-all-header {
+        padding: 2rem !important;
+    }
+
+    .faculties-directory-all-header h3 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 1rem !important;
+    }
+
+    .faculties-directory-all-header p {
+        font-family: var(--font-figtree-regular);
+        font-size: 20px;
+        opacity: 0.9;
+        text-align: center;
+    }
+
+    /* All Faculties Grid Mobile (Slider Look) */
+    .faculties-directory-all-faculties-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .faculties-directory-faculty-item {
+        padding: 20px !important;
+        border-radius: 12px !important;
+        margin-bottom: 16px;
+        height: 112px;
+    }
+
+    /* Style the Slick Slider auto-generated dots container */
+    .faculties-directory-pagination ul.slick-dots {
+        display: flex;
+        position: static;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faculties-directory-pagination ul.slick-dots li {
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .faculties-directory-dot {
+        transition: all 0.3s ease;
+    }
+
+    .faculties-directory-faculty-icon {
+        width: 75px;
+        height: 75px;
+        margin-right: 16px !important;
+        border-radius: 10px !important;
+        background: #f0f2f5;
+        border: none;
+        box-shadow: none;
+    }
+
+    .faculties-directory-faculty-name {
+        font-size: 24px;
+        line-height: 1.25;
+        margin-bottom: 4px !important;
+        color: #110543;
+        font-family: var(--font-figtree-bold);
+    }
+
+    .faculties-directory-faculty-count {
+        font-size: 16px;
+        color: #8c98a4;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+
+    /* Responsive Pagination for small screens */
+    .faculties-directory-profile-pagination {
+        gap: 8px !important;
+    }
+
+    .faculties-directory-profile-pagination button {
+        width: 36px !important;
+        height: 36px !important;
+        margin: 0 !important;
+        font-size: 14px !important;
+    }
+
+    /* Previous and Next Pill Buttons */
+    .faculties-directory-profile-pagination button:first-child,
+    .faculties-directory-profile-pagination button:last-child {
+        width: 44px !important;
+        height: 32px !important;
+    }
+
+    .faculties-directory-profile-pagination button img {
+        width: 18px !important;
+        height: 18px !important;
+    }
+
+    /* Profiles Header Mobile (Campus Faculty) */
+    .faculties-directory-profiles-subtitle {
+        font-size: 20px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .faculties-directory-profiles-title {
+        font-size: 42px !important;
+        line-height: 1.2 !important;
+    }
+
+    .faculties-directory-profiles-desc {
+        font-size: 17px !important;
+        line-height: 1.5;
+        max-width: 100%;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .faculties-directory-sort-select {
+        width: 250px !important;
+        max-width: 100% !important;
+        padding: 12px 20px !important;
+        font-size: 15px !important;
+    }
+
+    /* Profiles Grid Mobile */
+    .faculties-directory-profile-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px;
+    }
+
+    .faculties-directory-profile-img {
+        display: none !important;
+    }
+
+    .faculties-directory-profile-img-wrap {
+        background-color: #5641E0 !important;
+        height: 270px !important;
+    }
+
+    .faculties-directory-profile-img-wrap .p-3 {
+        padding: 10px !important;
+    }
+
+    .faculties-directory-profile-icon {
+        width: 27px;
+        height: 27px;
+        font-size: 10px;
+        padding: 2px;
+    }
+
+    .faculties-directory-profile-details {
+        padding: 14px !important;
+    }
+
+    .faculties-directory-profile-name {
+        font-size: 18px;
+        margin-bottom: 4px !important;
+    }
+
+    .faculties-directory-profile-designation {
+        font-size: 14px;
+        margin-bottom: 12px !important;
+    }
+
+    .faculties-directory-profile-stats {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    /* Verification Section Mobile */
+    .faculties-directory-verification-box {
+        padding: 24px !important;
+        gap: 32px !important;
+    }
+
+    .faculties-directory-verification-icon {
+        display: none !important;
+    }
+
+    .faculties-directory-verification-subtitle {
+        font-size: 16px !important;
+        background-color: #271d58;
+        display: inline-block;
+        padding: 6px 14px;
+        border-radius: 6px;
+        margin-bottom: 20px !important;
+    }
+
+    .faculties-directory-verification-title {
+        font-size: 30px !important;
+        line-height: 1.1;
+    }
+
+    .faculties-directory-verification-title br {
+        display: none;
+    }
+
+    .faculties-directory-verification-desc {
+        font-size: 15px !important;
+        margin-bottom: 7px !important;
+    }
+
+    .faculties-directory-verification-box .gap-3 {
+        gap: 0 !important;
+        background-color: #271d58;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+    }
+
+    .faculties-directory-verification-card {
+        background-color: transparent !important;
+        border: none !important;
+        border-radius: 0 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+        padding: 20px !important;
+    }
+
+    .faculties-directory-verification-card:last-child {
+        border-bottom: none !important;
+    }
+
+    .faculties-directory-verification-card-title {
+        font-size: 20px !important;
+    }
+
+    .faculties-directory-verification-card-desc {
+        font-size: 14px !important;
+        line-height: 1.5;
+    }
+
+    .faculties-directory-verification-card-desc br {
+        display: none;
+    }
+
+    /* FAQ Section Mobile */
+    .faculties-directory-faq-section {
+        padding: 50px 0 !important;
+    }
+
+    .faculties-directory-certifications-subtitle {
+        font-size: 22px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .faculties-directory-certifications-title {
+        font-size: 38px !important;
+        line-height: 1.05 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .faculties-directory-certifications-title br {
+        display: none !important;
+    }
+
+    .faculties-directory-summary {
+        font-size: 18px !important;
+    }
+
+    .faculties-directory-details-content {
+        font-size: 15px !important;
+    }
+
+    #faq-view-more-btn {
+        font-size: 16px !important;
+        padding: 12px 28px !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    /* Hero Section */
+    .faculties-directory-hero {
+        background-image: url('../images/faculty-academic-experts/faculty-academic-experts-background-phone.webp');
+        background-size: contain;
+    }
+
+    .faculties-directory-hero-content {
+        margin-top: 80px;
+        position: relative;
+    }
+
+    .faculties-directory-hero-content::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        filter: blur(40px);
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .faculties-directory-badge {
+        font-size: 14px;
+    }
+
+    .faculties-directory-title {
+        font-size: 52px;
+    }
+
+    .faculties-directory-subtitle {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .faculties-directory-btn {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 30px;
+        font-size: 18px;
+        padding: 14px 20px !important;
+    }
+
+    /* Stats Banner Mobile */
+    .faculties-directory-stats {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .faculties-directory-stats .container {
+        padding: 0;
+        max-width: 100% !important;
+    }
+
+    .faculties-directory-stats-banner {
+        border-radius: 0 !important;
+        border-top: 10px solid #ffcc00;
+        border-bottom: 10px solid #ffcc00;
+        background-color: #0f0445;
+        padding: 40px 20px !important;
+    }
+
+    .faculties-directory-stat-item {
+        width: 100%;
+        margin-bottom: 20px !important;
+    }
+
+    /* First Item - Laurels and Large Text */
+    .faculties-directory-stat-item:nth-child(1) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 10px;
+    }
+
+    .faculties-directory-stat-item:nth-child(1) .faculties-directory-stat-number {
+        font-size: 80px;
+        color: #ffffff;
+        margin-right: 9px !important;
+        position: relative;
+    }
+
+    .faculties-directory-stat-title {
+        font-size: 24px;
+    }
+
+    .faculties-directory-stat-desc {
+        font-size: 16px;
+    }
+
+    .faculties-directory-stat-item:nth-child(1)::before {
+        content: '';
+        background: url('../images/faculties-directory-stats/faculty-directory-laurel-left.svg') no-repeat center/contain;
+        width: 40px;
+        height: 100px;
+        position: absolute;
+        left: 65px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .faculties-directory-stat-item:nth-child(1)::after {
+        content: '';
+        background: url('../images/faculties-directory-stats/faculty-directory-laurel-right.svg') no-repeat center/contain;
+        width: 40px;
+        height: 100px;
+        position: absolute;
+        right: 65px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* 2nd & 3rd Items - Pills */
+    .faculties-directory-stat-item:nth-child(3),
+    .faculties-directory-stat-item:nth-child(5) {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50px;
+        padding: 20px 40px;
+        background: rgba(255, 255, 255, 0.05);
+        justify-content: center !important;
+        width: 85% !important;
+        max-width: 500px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .faculties-directory-stat-item:nth-child(3) .faculties-directory-stat-number,
+    .faculties-directory-stat-item:nth-child(5) .faculties-directory-stat-number {
+        color: #ffcc00;
+        font-size: 48px;
+    }
+
+    .faculties-directory-stat-item:nth-child(3) .faculties-directory-stat-text,
+    .faculties-directory-stat-item:nth-child(5) .faculties-directory-stat-text {
+        width: 280px;
+    }
+
+    /* Search & Filter Bar Mobile */
+    .faculties-directory-search .container {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100% !important;
+    }
+
+    .faculties-directory-search-container {
+        border-radius: 0 !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-block: 2rem !important;
+    }
+
+    .faculties-directory-search-form {
+        display: grid !important;
+        grid-template-columns: 2fr 1fr;
+        gap: 10px !important;
+    }
+
+    .faculties-directory-search-input-wrapper {
+        grid-column: 1 / -1;
+    }
+
+    .faculties-directory-search-container select {
+        padding: 14px 24px !important;
+        font-size: 20px !important;
+    }
+
+    .faculties-directory-search-container button {
+        padding: 14px 24px !important;
+        font-size: 22px !important;
+    }
+
+    .faculties-directory-search-container input {
+        padding: 14px 20px 14px 48px !important;
+        font-size: 20px !important;
+    }
+
+    .faculties-directory-search-hint {
+        font-size: 18px !important;
+        line-height: 1.5;
+    }
+
+    /* Faculty Groups Mobile */
+    .faculties-directory-groups {
+        padding-top: 1rem !important;
+    }
+
+    .faculties-directory-groups-subtitle {
+        font-size: 20px;
+    }
+
+    .faculties-directory-groups-title {
+        font-size: 52px !important;
+        line-height: 1.1;
+    }
+
+    .faculties-directory-groups-title .faculties-directory-text-purple {
+        display: block;
+    }
+
+    .faculties-directory-groups-desc {
+        font-size: 18px !important;
+    }
+
+    .faculties-directory-card {
+        padding: 2rem;
+        min-height: 250px;
+    }
+
+    .faculties-directory-card-title {
+        font-size: 30px;
+    }
+
+    .faculties-directory-card-desc {
+        font-size: 16px;
+        margin-bottom: 1rem !important;
+    }
+
+    .faculties-directory-card-img {
+        height: 250px;
+        max-width: 60%;
+    }
+
+    .faculties-directory-card-badge {
+        font-size: 15px;
+        padding: 6px 12px !important;
+    }
+
+    .faculties-directory-all-header {
+        padding: 2.5rem !important;
+    }
+
+    .faculties-directory-all-header h3 {
+        font-size: 34px;
+        text-align: center;
+        margin-bottom: 1rem !important;
+    }
+
+    .faculties-directory-all-header p {
+        font-family: var(--font-figtree-regular);
+        font-size: 22px;
+        opacity: 0.9;
+        text-align: center;
+    }
+
+    /* All Faculties Grid Mobile (Slider Look) */
+    .faculties-directory-all-faculties-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .faculties-directory-faculty-item {
+        padding: 24px !important;
+        border-radius: 12px !important;
+        margin-bottom: 16px;
+        height: 120px;
+    }
+
+    /* Style the Slick Slider auto-generated dots container */
+    .faculties-directory-pagination ul.slick-dots {
+        display: flex;
+        position: static;
+        gap: 8px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faculties-directory-pagination ul.slick-dots li {
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .faculties-directory-dot {
+        transition: all 0.3s ease;
+    }
+
+    .faculties-directory-faculty-icon {
+        width: 85px;
+        height: 85px;
+        margin-right: 16px !important;
+        border-radius: 10px !important;
+        background: #f0f2f5;
+        border: none;
+        box-shadow: none;
+    }
+
+    .faculties-directory-faculty-name {
+        font-size: 26px;
+        line-height: 1.25;
+        margin-bottom: 4px !important;
+        color: #110543;
+        font-family: var(--font-figtree-bold);
+    }
+
+    .faculties-directory-faculty-count {
+        font-size: 18px;
+        color: #8c98a4;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+
+    /* Responsive Pagination for small screens */
+    .faculties-directory-profile-pagination {
+        gap: 10px !important;
+    }
+
+    .faculties-directory-profile-pagination button {
+        width: 42px !important;
+        height: 42px !important;
+        margin: 0 !important;
+        font-size: 16px !important;
+    }
+
+    .faculties-directory-profiles-section .container {
+        max-width: 100% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    /* Profiles Header Mobile (Campus Faculty) */
+    .faculties-directory-profiles-subtitle {
+        font-size: 22px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .faculties-directory-profiles-title {
+        font-size: 48px !important;
+        line-height: 1.2 !important;
+    }
+
+    .faculties-directory-profiles-desc {
+        font-size: 18px !important;
+        line-height: 1.5;
+        max-width: 100%;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .faculties-directory-sort-select {
+        width: 280px !important;
+        max-width: 100% !important;
+        padding: 14px 20px !important;
+        font-size: 17px !important;
+    }
+
+    /* Profiles Grid Mobile */
+    .faculties-directory-profile-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 16px;
+    }
+
+    .faculties-directory-profile-img {
+        display: none !important;
+    }
+
+    .faculties-directory-profile-img-wrap {
+        background-color: #5641E0 !important;
+        height: 350px !important;
+    }
+
+    .faculties-directory-profile-img-wrap .p-3 {
+        padding: 12px !important;
+    }
+
+    .faculties-directory-profile-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .faculties-directory-profile-details {
+        padding: 18px !important;
+    }
+
+    .faculties-directory-profile-name {
+        font-size: 20px;
+        margin-bottom: 4px !important;
+    }
+
+    .faculties-directory-profile-designation {
+        font-size: 16px;
+        margin-bottom: 12px !important;
+    }
+
+    .faculties-directory-profile-stats {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .faculties-directory-verification-section .container {
+        max-width: 100% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    /* Verification Section Mobile */
+    .faculties-directory-verification-box {
+        padding: 32px !important;
+        gap: 40px !important;
+    }
+
+    .faculties-directory-verification-icon {
+        width: 60px;
+    }
+
+    .faculties-directory-verification-subtitle {
+        font-size: 24px;
+    }
+
+    .faculties-directory-verification-title {
+        font-size: 44px;
+        line-height: 1.2;
+    }
+
+    .faculties-directory-verification-desc {
+        font-size: 20px;
+    }
+
+    .faculties-directory-verification-card {
+        padding: 24px !important;
+        width: 100% !important;
+    }
+
+    .faculties-directory-verification-card-title {
+        font-size: 24px;
+    }
+
+    .faculties-directory-verification-card-desc {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .faculties-directory-verification-card-container {
+        width: 100%;
+    }
+
+    /* FAQ Section Mobile */
+    .faculties-directory-faq-section .container {
+        max-width: 100% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .faculties-directory-faq-section {
+        padding: 60px 0 !important;
+    }
+
+    .faculties-directory-certifications-subtitle {
+        font-size: 24px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .faculties-directory-certifications-title {
+        font-size: 44px !important;
+        line-height: 1.1 !important;
+        margin-bottom: 36px !important;
+    }
+
+    .faculties-directory-certifications-title br {
+        display: none !important;
+    }
+
+    .faculties-directory-summary {
+        font-size: 20px !important;
+    }
+
+    .faculties-directory-details-content {
+        font-size: 17px !important;
+    }
+
+    #faq-view-more-btn {
+        font-size: 18px !important;
+        padding: 14px 32px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Hero Section */
+    .faculties-directory-hero {
+        background-image: url('../images/faculty-academic-experts/faculty-academic-experts-background-phone.webp');
+        background-size: cover;
+    }
+
+    .faculties-directory-hero-content {
+        margin-top: 100px;
+        position: relative;
+    }
+
+    .faculties-directory-hero-content::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        filter: blur(50px);
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .faculties-directory-badge {
+        font-size: 16px;
+    }
+
+    .faculties-directory-title {
+        font-size: 64px;
+    }
+
+    .faculties-directory-subtitle {
+        font-size: 18px;
+        padding: 0 40px;
+    }
+
+    .faculties-directory-btn {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 40px;
+        font-size: 20px;
+        padding: 16px 24px !important;
+    }
+
+    /* Stats Banner Mobile */
+    .faculties-directory-stats {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .faculties-directory-stats .container {
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .faculties-directory-stats-banner {
+        border-radius: 0 !important;
+        border-top: 10px solid #ffcc00;
+        border-bottom: 10px solid #ffcc00;
+        background-color: #0f0445;
+        padding: 50px 20px !important;
+        flex-direction: column !important;
+    }
+
+    .faculties-directory-stat-divider {
+        display: none !important;
+    }
+
+    .faculties-directory-stat-item {
+        width: 100%;
+        margin-bottom: 24px !important;
+    }
+
+    /* First Item - Laurels and Large Text */
+    .faculties-directory-stat-item:nth-child(1) {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        padding-bottom: 16px;
+    }
+
+    .faculties-directory-stat-item:nth-child(1) .faculties-directory-stat-number {
+        font-size: 90px;
+        color: #ffffff;
+        margin-right: 12px !important;
+        position: relative;
+    }
+
+    .faculties-directory-stat-title {
+        font-size: 28px;
+    }
+
+    .faculties-directory-stat-desc {
+        font-size: 18px;
+    }
+
+    .faculties-directory-stat-item:nth-child(1)::before {
+        content: '';
+        background: url('../images/faculties-directory-stats/faculty-directory-laurel-left.svg') no-repeat center/contain;
+        width: 50px;
+        height: 120px;
+        position: absolute;
+        left: 80px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .faculties-directory-stat-item:nth-child(1)::after {
+        content: '';
+        background: url('../images/faculties-directory-stats/faculty-directory-laurel-right.svg') no-repeat center/contain;
+        width: 50px;
+        height: 120px;
+        position: absolute;
+        right: 80px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* 2nd & 3rd Items - Pills */
+    .faculties-directory-stat-item:nth-child(3),
+    .faculties-directory-stat-item:nth-child(5) {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50px;
+        padding: 24px 40px;
+        background: rgba(255, 255, 255, 0.05);
+        justify-content: center !important;
+        width: 80% !important;
+        max-width: 600px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .faculties-directory-stat-item:nth-child(3) .faculties-directory-stat-number,
+    .faculties-directory-stat-item:nth-child(5) .faculties-directory-stat-number {
+        color: #ffcc00;
+        font-size: 56px;
+    }
+
+    .faculties-directory-stat-item:nth-child(3) .faculties-directory-stat-text,
+    .faculties-directory-stat-item:nth-child(5) .faculties-directory-stat-text {
+        width: 320px;
+    }
+
+    /* Search & Filter Bar Mobile */
+    .faculties-directory-search .container {
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+
+    .faculties-directory-search-container {
+        border-radius: 0 !important;
+        padding-block: 2.5rem !important;
+        padding-inline: 100px !important;
+    }
+
+    .faculties-directory-search-form {
+        display: grid !important;
+        grid-template-columns: 2fr 1fr;
+        gap: 12px !important;
+    }
+
+    .faculties-directory-search-input-wrapper {
+        grid-column: 1 / -1;
+    }
+
+    .faculties-directory-search-container select {
+        padding: 16px 28px !important;
+        font-size: 22px !important;
+    }
+
+    .faculties-directory-search-container button {
+        padding: 16px 28px !important;
+        font-size: 24px !important;
+    }
+
+    .faculties-directory-search-container input {
+        padding: 16px 24px 16px 52px !important;
+        font-size: 22px !important;
+    }
+
+    .faculties-directory-search-hint {
+        font-size: 20px !important;
+        line-height: 1.5;
+    }
+
+    /* Faculty Groups Mobile */
+    .faculties-directory-groups .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        max-width: 90% !important;
+    }
+
+    .faculties-directory-groups {
+        padding-top: 1.5rem !important;
+    }
+
+    .faculties-directory-groups-subtitle {
+        font-size: 22px;
+    }
+
+    .faculties-directory-groups-title {
+        font-size: 60px !important;
+        line-height: 1.1;
+    }
+
+    .faculties-directory-groups-title .faculties-directory-text-purple {
+        display: block;
+    }
+
+    .faculties-directory-groups-desc {
+        font-size: 20px !important;
+    }
+
+    .faculties-directory-card {
+        padding: 2.5rem;
+        min-height: 300px;
+    }
+
+    .faculties-directory-card-title {
+        font-size: 42px !important;
+    }
+
+    .faculties-directory-card-desc {
+        font-size: 22px !important;
+        margin-bottom: 1.5rem !important;
+    }
+
+    .faculties-directory-card-img {
+        height: 280px;
+        max-width: 60%;
+    }
+
+    .faculties-directory-card-badge {
+        font-size: 18px !important;
+        padding: 10px 18px !important;
+    }
+
+    /* All Faculties Grid Mobile */
+    .faculties-directory-all-faculties .container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        max-width: 100% !important;
+    }
+
+    .faculties-directory-all-header {
+        padding: 3rem !important;
+    }
+
+    .faculties-directory-all-header h3 {
+        font-size: 42px !important;
+    }
+
+    .faculties-directory-all-header p {
+        font-size: 24px !important;
+    }
+
+    .faculties-directory-all-header button {
+        font-size: 20px !important;
+        padding: 16px 32px !important;
+    }
+
+    .faculties-directory-all-faculties-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .faculties-directory-faculty-item {
+        padding: 24px !important;
+        border-radius: 12px !important;
+        height: 140px;
+    }
+
+    .faculties-directory-faculty-icon {
+        width: 80px;
+        height: 80px;
+        min-width: 80px;
+    }
+
+    .faculties-directory-faculty-name {
+        font-size: 24px !important;
+    }
+
+    .faculties-directory-faculty-count {
+        font-size: 18px !important;
+    }
+
+    /* Profiles Grid Mobile */
+    .faculties-directory-profiles-section .container {
+        max-width: 90% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .faculties-directory-profiles-section .container>.d-flex.flex-md-row {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+
+    .faculties-directory-profiles-section .container>.d-flex.flex-md-row>div:last-child {
+        margin-top: 1.5rem !important;
+    }
+
+    .faculties-directory-profiles-subtitle {
+        font-size: 26px !important;
+        margin-bottom: 12px !important;
+    }
+
+    .faculties-directory-profiles-title {
+        font-size: 54px !important;
+        line-height: 1.2 !important;
+    }
+
+    .faculties-directory-profiles-desc {
+        font-size: 22px !important;
+        line-height: 1.5;
+        max-width: 100%;
+        margin-bottom: 0 !important;
+    }
+
+    .faculties-directory-sort-select {
+        width: 320px !important;
+        max-width: 100% !important;
+        padding: 16px 24px !important;
+        font-size: 20px !important;
+    }
+
+    .faculties-directory-profile-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 20px;
+    }
+
+    .faculties-directory-profile-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        padding: 4px;
+    }
+
+    .faculties-directory-profile-details {
+        padding: 24px !important;
+    }
+
+    .faculties-directory-profile-name {
+        font-size: 24px;
+        margin-bottom: 8px !important;
+    }
+
+    .faculties-directory-profile-designation {
+        font-size: 18px;
+        margin-bottom: 16px !important;
+    }
+
+    .faculties-directory-profile-stats {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Verification Section Mobile */
+    .faculties-directory-verification-section .container {
+        max-width: 90% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .faculties-directory-verification-box {
+        padding: 40px !important;
+        gap: 40px !important;
+    }
+
+    .faculties-directory-verification-icon {
+        width: 80px;
+    }
+
+    .faculties-directory-verification-subtitle {
+        font-size: 28px !important;
+    }
+
+    .faculties-directory-verification-title {
+        font-size: 48px !important;
+        line-height: 1.2 !important;
+    }
+
+    .faculties-directory-profiles-section .container {
+        max-width: 100% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .faculties-directory-verification-desc {
+        font-size: 24px;
+    }
+
+    .faculties-directory-verification-card {
+        padding: 32px !important;
+        width: 100% !important;
+    }
+
+    .faculties-directory-verification-card-title {
+        font-size: 28px;
+    }
+
+    .faculties-directory-verification-card-desc {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .faculties-directory-verification-card-container {
+        width: 100%;
+    }
+
+    .faculties-directory-verification-icon {
+        height: 100%;
+    }
+
+    /* FAQ Section Mobile */
+    .faculties-directory-faq-section .container {
+        max-width: 90% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .faculties-directory-faq-section {
+        padding: 70px 0 !important;
+    }
+
+    .faculties-directory-certifications-subtitle {
+        font-size: 26px !important;
+        margin-bottom: 16px !important;
+    }
+
+    .faculties-directory-certifications-title {
+        font-size: 48px !important;
+        line-height: 1.1 !important;
+        margin-bottom: 40px !important;
+    }
+
+    .faculties-directory-certifications-title br {
+        display: none !important;
+    }
+
+    .faculties-directory-summary {
+        font-size: 22px !important;
+    }
+
+    .faculties-directory-details-content {
+        font-size: 18px !important;
+    }
+
+    #faq-view-more-btn {
+        font-size: 20px !important;
+        padding: 16px 36px !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* Full width containers for stats and search */
+    .faculties-directory-stats {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .faculties-directory-stats .container,
+    .faculties-directory-search .container {
+        max-width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .faculties-directory-stats-banner,
+    .faculties-directory-search-container {
+        border-radius: 0 !important;
+    }
+
+    /* All Faculties Grid & Groups */
+    .faculties-directory-all-faculties .container,
+    .faculties-directory-groups .container {
+        max-width: 95% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    /* Verification Section */
+    .faculties-directory-verification-section .container {
+        max-width: 95% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .faculties-directory-verification-box {
+        padding: 50px !important;
+        gap: 50px !important;
+        flex-direction: column !important;
+    }
+
+    .faculties-directory-verification-box>div {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .faculties-directory-verification-icon {
+        width: 100px;
+        height: 100%;
+    }
+
+    .faculties-directory-verification-subtitle {
+        font-size: 32px !important;
+    }
+
+    .faculties-directory-verification-title {
+        font-size: 56px !important;
+        line-height: 1.2 !important;
+    }
+
+    .faculties-directory-verification-desc {
+        font-size: 26px;
+    }
+
+    .faculties-directory-verification-card {
+        padding: 40px !important;
+        width: 100% !important;
+    }
+
+    .faculties-directory-verification-card-title {
+        font-size: 32px;
+    }
+
+    .faculties-directory-verification-card-desc {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+
+    .faculties-directory-verification-card-container {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 24px !important;
+        width: 100% !important;
+    }
+
+    /* FAQ Section */
+    .faculties-directory-faq-section .container {
+        max-width: 95% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .faculties-directory-faq-section {
+        padding: 80px 0 !important;
+    }
+
+    .faculties-directory-certifications-subtitle {
+        font-size: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .faculties-directory-certifications-title {
+        font-size: 56px !important;
+        line-height: 1.1 !important;
+        margin-bottom: 50px !important;
+    }
+
+    .faculties-directory-certifications-title br {
+        display: none !important;
+    }
+
+    .faculties-directory-summary {
+        font-size: 24px !important;
+    }
+
+    .faculties-directory-details-content {
+        font-size: 20px !important;
+    }
+
+    #faq-view-more-btn {
+        font-size: 22px !important;
+        padding: 18px 40px !important;
+    }
+
+    /* Profiles Section */
+    .faculties-directory-profiles-section .container {
+        max-width: 95% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .faculties-directory-profile-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .faculties-directory-groups-row {
+        padding: 0 !important;
+    }
+
+    .faculties-directory-groups-header {
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    /* Stats, Search, All Faculties Grid, Groups, Profiles, Verification & FAQ */
+    .faculties-directory-stats .container,
+    .faculties-directory-search .container,
+    .faculties-directory-all-faculties .container,
+    .faculties-directory-groups .container,
+    .faculties-directory-profiles-section .container,
+    .faculties-directory-verification-section .container,
+    .faculties-directory-faq-section .container {
+        max-width: 95% !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+     .faculties-directory-groups-row {
+        padding: 0 !important;
+    }
+
+    .faculties-directory-groups-header {
+        padding-left: 0 !important;
     }
 }
