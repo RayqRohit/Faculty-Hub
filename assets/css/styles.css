@@ -1,4 +1,4 @@
-@font-face {
+﻿@font-face {
     font-family: 'Figtree-Regular';
     src: url('../fonts/Figtree-Regular.ttf') format('truetype');
 }
@@ -105,10 +105,6 @@ img {
     color: #ffffff !important;
     border-color: #2d235c !important;
     box-shadow: none !important;
-}
-
-.faculties-directory-gate-img {
-    max-width: 1920px;
 }
 
 /* Search */
